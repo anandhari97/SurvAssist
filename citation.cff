@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "SurvAssist: An Interactive Shiny-Based Web Application for Survival Analysis"
+message: "If you use SurvAssist in your research, please cite this software."
+type: software
+
+authors:
+  - family-names: "Hari"
+    given-names: "Anand"
+    orcid: "https://orcid.org/0009-0000-2611-8945"
+  - family-names: "Dennis"
+    given-names: "Divya"
+    orcid: "https://orcid.org/0009-0006-4420-2028"
+  - family-names: "Krishna KM"
+    given-names: "Jagathnath"
+    orcid: "https://orcid.org/0000-0001-6393-6357"
+
+repository-code: "https://github.com/anandhari97/SurvAssist"
+
+url: "https://survassist.shinyapps.io/SurvAssist/"
+
+license: "MIT"
+
+version: "1.0.0"
+
+date-released: "2026-09-02"
