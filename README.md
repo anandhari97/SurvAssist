@@ -60,8 +60,7 @@ The dataset can be used to test the SurvAssist workflow. For example:
 
 - `time` can be selected as the survival time variable.
 - `status` can be selected as the event/status variable.
-- `sex` can be selected as the grouping variable.
-- Additional clinical variables can be selected as covariates for Cox
+- Additional clinical variables can be selected as covariates for Kaplan-Meier analysis or Cox
   proportional hazards regression.
 
 The dataset is included only as an example for demonstrating and testing
