@@ -51,6 +51,21 @@ Users should provide a survival time variable and an event/status variable.
 Additional grouping variables and covariates can be selected depending on
 the analysis.
 
+## Example dataset
+
+The `sample_data/data.xlsx` file contains the publicly available
+NCCTG lung cancer dataset distributed with the R `survival` package.
+
+The dataset can be used to test the SurvAssist workflow. For example:
+
+- `time` can be selected as the survival time variable.
+- `status` can be selected as the event/status variable.
+- `sex` can be selected as the grouping variable.
+- Additional clinical variables can be selected as covariates for Cox
+  proportional hazards regression.
+
+The dataset is included only as an example for demonstrating and testing
+the application.
 ## Statistical methods
 
 SurvAssist implements commonly used survival analysis methods using the
