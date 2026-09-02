@@ -58,7 +58,7 @@ NCCTG lung cancer dataset distributed with the R `survival` package.
 
 The dataset can be used to test the SurvAssist workflow. For example:
 
-- `time` can be selected as the survival time variable.
+- `time` or `time_in_months` can be selected as the survival time variable.
 - `status` can be selected as the event/status variable.
 - Additional clinical variables can be selected as covariates for Kaplan-Meier analysis or Cox
   proportional hazards regression.
